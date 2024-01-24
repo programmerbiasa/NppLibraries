@@ -1,0 +1,2 @@
+# NppSnippetsLibrary
+Notepad++ Snippets Library
