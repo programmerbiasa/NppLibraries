@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+@author private course and after school course
+-->
+<NotepadPlus>
+	<AutoComplete language="normal">
+		<Environment ignoreCase="yes" />
+
+		<!-- most common used words in Bahasa Indonesia -->
+		<KeyWord name="agar" />
+		<KeyWord name="akibatnya" />
+		<KeyWord name="andaikan" />
+		<KeyWord name="apabila" />
+		<KeyWord name="asalkan" />
+		<KeyWord name="atau" />
+		<KeyWord name="ataupun" />
+		<KeyWord name="bagaikan" />
+		<KeyWord name="bahkan" />
+		<KeyWord name="begitu" />
+		<KeyWord name="biar" />
+		<KeyWord name="biarpun" />
+		<KeyWord name="biarpun" />
+		<KeyWord name="bukannya" />
+		<KeyWord name="dan" />
+		<KeyWord name="demi" />
+		<KeyWord name="hanya" />
+		<KeyWord name="hingga" />
+		<KeyWord name="jika" />
+		<KeyWord name="jikalau" />
+		<KeyWord name="juga" />
+		<KeyWord name="kalau" />
+		<KeyWord name="karena" />
+		<KeyWord name="kecuali" />
+		<KeyWord name="kemudian" />
+		<KeyWord name="ketika" />
+		<KeyWord name="lagipula" />
+		<KeyWord name="lalu" />
+		<KeyWord name="manakala" />
+		<KeyWord name="maupun" />
+		<KeyWord name="melainkan" />
+		<KeyWord name="meskipun" />
+		<KeyWord name="padahal" />
+		<KeyWord name="sambil" />
+		<KeyWord name="sampai" />
+		<KeyWord name="sampai" />
+		<KeyWord name="seandainya" />
+		<KeyWord name="sebab" />
+		<KeyWord name="sebagai" />
+		<KeyWord name="sebelum" />
+		<KeyWord name="sedangkan" />
+		<KeyWord name="sedari" />
+		<KeyWord name="sehabis" />
+		<KeyWord name="sehingga" />
+		<KeyWord name="sejak" />
+		<KeyWord name="sekiranya" />
+		<KeyWord name="selagi" />
+		<KeyWord name="selain" />
+		<KeyWord name="selama" />
+		<KeyWord name="selanjutnya" />
+		<KeyWord name="selesai" />
+		<KeyWord name="semenjak" />
+		<KeyWord name="sementara" />
+		<KeyWord name="seperti" />
+		<KeyWord name="seraya" />
+		<KeyWord name="serta" />
+		<KeyWord name="sesudah" />
+		<KeyWord name="setelah" />
+		<KeyWord name="seumpamanya" />
+		<KeyWord name="seusai" />
+		<KeyWord name="sewaktu" />
+		<KeyWord name="supaya" />
+		<KeyWord name="tatkala" />
+		<KeyWord name="tetapi" />
+		<KeyWord name="tidak" />
+		<KeyWord name="untuk" />
+		<KeyWord name="walaupun" />
+		<KeyWord name="yaitu" />
+		<KeyWord name="yakni" />
+
+	</AutoComplete>
+</NotepadPlus>
