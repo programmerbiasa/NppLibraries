@@ -13,10 +13,13 @@
     </Macros>
     <UserDefinedCommands>
         <Command name="Get PHP help" Ctrl="no" Alt="yes" Shift="no" Key="112">https://www.php.net/$(CURRENT_WORD)</Command>
-        <Command name="Get Python help" Ctrl="no" Alt="no" Shift="no" Key="0">https://www.python.org/search/?q=$(CURRENT_WORD)&submit=</Command>
+        <Command name="Get Python help" Ctrl="no" Alt="no" Shift="no" Key="0">https://www.python.org/search/?q=$(CURRENT_WORD)&amp;submit=</Command>
         <Command name="Get Wordpress help" Ctrl="no" Alt="no" Shift="no" Key="0">https://wordpress.org/search/$(CURRENT_WORD)/</Command>
-        <Command name="Get Wordpress help" Ctrl="no" Alt="no" Shift="no" Key="0">https://www.drupal.org/search/site/$(CURRENT_WORD)?f%5B0%5D=ss_meta_type%3Adocumentation</Command>
-        <Command name="Get The Manual E-Book" Ctrl="no" Alt="no" Shift="no" Key="0">https://www.amazon.com/s?k=$(CURRENT_WORD)&i=stripbooks-intl-ship&ref=nb_sb_noss</Command>
+        <Command name="Get Drupal help" Ctrl="no" Alt="no" Shift="no" Key="0">https://www.drupal.org/search/site/$(CURRENT_WORD)?f%5B0%5D=ss_meta_type%3Adocumentation</Command>
+        <Command name="Get The Manual E-Book" Ctrl="no" Alt="no" Shift="no" Key="0">https://www.amazon.com/s?k=$(CURRENT_WORD)&amp;i=stripbooks-intl-ship&amp;ref=nb_sb_noss</Command>
+        <Command name="Cambridge Dictionary Search" Ctrl="no" Alt="no" Shift="no" Key="0">https://dictionary.cambridge.org/dictionary/english/$(CURRENT_WORD)</Command>
+        <Command name="Collins Dictionary Search" Ctrl="no" Alt="no" Shift="no" Key="0">https://www.collinsdictionary.com/dictionary/english/$(CURRENT_WORD)</Command>
+        <Command name="Longman Dictionary Search" Ctrl="no" Alt="no" Shift="no" Key="0">https://www.ldoceonline.com/dictionary/$(CURRENT_WORD)</Command>
         <Command name="Wikipedia Search" Ctrl="no" Alt="yes" Shift="no" Key="114">https://en.wikipedia.org/wiki/Special:Search?search=$(CURRENT_WORD)</Command>
         <Command name="Open selected file path in new instance" Ctrl="no" Alt="yes" Shift="no" Key="117">$(NPP_FULL_FILE_PATH) $(CURRENT_WORD) -nosession -multiInst</Command>
         <!-- open with Google Chrome 32 bit browser -->
