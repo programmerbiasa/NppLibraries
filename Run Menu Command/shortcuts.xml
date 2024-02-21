@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <!--
+    You can organize you Macro menu & Run menu by adding the attribute 'FolderName="My sub-menu name"' to any Macro or Command node.
+    This will place the corresponding node within a "My sub-menu name" sub-menu in the appropriate menu. Please consider the following examples:
+    -->
+    <InternalCommands />
+    <Macros>
+        <Macro name="Trim Trailing Space and Save" Ctrl="no" Alt="yes" Shift="yes" Key="83">
+            <Action type="2" message="0" wParam="42024" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="41006" lParam="0" sParam="" />
+        </Macro>
+    </Macros>
+    <UserDefinedCommands>
+        <Command name="Get PHP help" Ctrl="no" Alt="yes" Shift="no" Key="112">https://www.php.net/$(CURRENT_WORD)</Command>
+        <Command name="Get Python help" Ctrl="no" Alt="no" Shift="no" Key="0">https://www.python.org/search/?q=$(CURRENT_WORD)&submit=</Command>
+        <Command name="Get The Manual E-Book" Ctrl="no" Alt="no" Shift="no" Key="0">https://www.amazon.com/s?k=$(CURRENT_WORD)&i=stripbooks-intl-ship&ref=nb_sb_noss</Command>
+        <Command name="Wikipedia Search" Ctrl="no" Alt="yes" Shift="no" Key="114">https://en.wikipedia.org/wiki/Special:Search?search=$(CURRENT_WORD)</Command>
+        <Command name="Open selected file path in new instance" Ctrl="no" Alt="yes" Shift="no" Key="117">$(NPP_FULL_FILE_PATH) $(CURRENT_WORD) -nosession -multiInst</Command>
+        <!-- open with Google Chrome 32 bit browser -->
+        <Command name="chrome 32bit" Ctrl="no" Alt="no" Shift="no" Key="0">&quot;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&quot; &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <!-- open with Mozilla Firefox 32 bit browser -->
+        <Command name="firefox 32bit" Ctrl="no" Alt="no" Shift="no" Key="0">&quot;C:\Program Files (x86)\Mozilla Firefox\firefox.exe&quot; &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+    </UserDefinedCommands>
+    <PluginCommands />
+    <ScintillaKeys />
+</NotepadPlus>
