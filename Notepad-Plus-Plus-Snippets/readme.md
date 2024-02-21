@@ -1,6 +1,6 @@
 # About
 For view and edit sqlite, I advice to use:
-- So be sure to create the database with an appropriate / matching version of SQLite management tool with the NppSnippets plugin.
+- Be sure to create the database with an appropriate / matching version of SQLite management tool with the NppSnippets plugin!
 - SQLite Tools (official command line)
 - [SQLite Studio](https://sqlitestudio.pl/)
 - [Navicat](https://www.navicat.com/en/products/navicat-for-sqlite)
