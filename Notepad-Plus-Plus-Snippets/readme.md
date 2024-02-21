@@ -5,6 +5,9 @@ For view and edit sqlite, I advice to use:
 - [SQLite Studio](https://sqlitestudio.pl/)
 - [Navicat](https://www.navicat.com/en/products/navicat-for-sqlite)
 - For more information about sqlite, read: [https://www.sqlite.org/](https://www.sqlite.org/)
+- For more information about NppSnippets, read:
+  - [https://nppsnippets.readthedocs.io/](https://nppsnippets.readthedocs.io/)
+  - [https://github.com/ffes/nppsnippets](https://github.com/ffes/nppsnippets)
 
 ## Markdown Syntax Reference
 https://markdownguide.org/, https://www.jetbrains.com/, https://www.codecademy.com/
