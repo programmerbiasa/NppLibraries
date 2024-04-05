@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- ==========================================================================\
+|
+|   To learn how to make your own language parser, please check the following
+|   link:
+|       https://npp-user-manual.org/docs/function-list/
+|
+\=========================================================================== -->
+<NotepadPlus>
+	<functionList>
+		<!-- ======================================================== [ Parser goes here ] -->
+
+		<parser
+			displayName="HTML"
+			id         ="html_headers"
+			commentExpr="(?x)                                               # Utilize inline comments (see `RegEx - Pattern Modifiers`)
+							(?:\x3C!--(?:[^\-]|-(?!-\x3E))*--\x3E)          # Multi Line Comment
+						"
+		>
+			<function
+				mainExpr="(?x)                                              # Utilize inline comments (see `RegEx - Pattern Modifiers`)
+						\x3C                                                # begin of node
+						(?:
+							[hH][1-6]
+						)
+						(?:                                                 # match attributes
+							\s+                                             # at least one whitespace before attribute-name
+							\w+
+							\h*=\h*                                         # name-value separator can be surrounded by blanks
+							(?:                                             # quoted attribute value, embedded escaped quotes allowed...
+								\x22(?:[^\x22\x5C]|\x5C.)*?\x22             # ...double quoted...
+							|	\x27(?:[^\x27\x5C]|\x5C.)*?\x27             # ...single quoted
+							)
+						)*
+						(?:
+							\s*
+							\x3E
+						)
+						\w+(\s+\w+)*
+						(?:\x3C/[hH][1-6]\x3E)
+					"
+			>
+				<functionName>
+					<nameExpr expr="(?:\x3C(?:[hH][1-6])(?:\s+\w+\h*=\h*(?:\x22(?:[^\x22\x5C]|\x5C.)*?\x22|\x27(?:[^\x27\x5C]|\x5C.)*?\x27))*(?:\s*\x3E))\K.*" />
+				</functionName>
+			</function>
+		</parser>
+	</functionList>
+</NotepadPlus>
