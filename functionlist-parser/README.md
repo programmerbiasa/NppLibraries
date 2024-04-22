@@ -18,6 +18,7 @@ For User Defined Language (UDL) and non User Defined Languagae (UDL), read HowTo
 - example1.html from HTML Tidy
 - Example1.md from Johannes Schroth (github), ebay
 - TableOfContentsFile-example.xml from JavaHelp
+- books-example.xml from Microsoft
 
 **More resourcess** in :
 - https://npp-user-manual.org/docs/function-list/
